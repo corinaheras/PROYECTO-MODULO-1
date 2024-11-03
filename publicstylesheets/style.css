@@ -1,0 +1,43 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#seccion1 {
+    background: rgb(97, 15, 15);
+} 
+
+#quienesomos {
+    background: rgb(244, 215, 0);
+    border: 2px solid black;
+}
+
+#nuestramision {
+    background: rgb(244, 215, 0);
+    border: 2px solid black;
+
+}
+
+#seguridad {
+    background: rgb(244, 215, 0);
+    border: 2px solid black;
+}
+
+#BASES {
+    background: rgba(244, 216, 0, 0.857);
+    border: 2px solid black;
+
+}
+
+#servicios {
+    background:rgba(157, 222, 113, 0.857)
+
+}
+
+#decoracion {
+    background:rgba(95, 163, 50, 0.857)
+
+}
+
+#BASE {
+    border-radius: 50px;
+}
