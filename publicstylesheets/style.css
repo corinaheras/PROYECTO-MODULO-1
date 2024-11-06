@@ -1,10 +1,19 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Poppins', sans-serif;
 }
+
+.footer-icon {
+    transition: all 0.3s ease;
+  }
+  
+  .footer-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
 
 #seccion1 {
     background: rgb(97, 15, 15);
-} 
+}
 
 #quienesomos {
     background: rgb(244, 215, 0);
@@ -24,20 +33,46 @@
 
 #BASES {
     background: rgba(244, 216, 0, 0.857);
-    border: 2px solid black;
+    border: 5px solid rgb(54, 2, 2);
 
 }
 
 #servicios {
-    background:rgba(157, 222, 113, 0.857)
-
+    background: rgba(157, 222, 113, 0.857)
 }
 
 #decoracion {
-    background:rgba(95, 163, 50, 0.857)
-
+    background: rgba(95, 163, 50, 0.857)
 }
 
 #BASE {
     border-radius: 50px;
 }
+
+#Ubicacion {
+    border-radius: 10px 10px;
+}
+
+#svg1 {
+    color: rgb(97, 15, 15);
+
+}
+
+#pidetaxi {
+    background-color: #f7fafc;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#pidetaxi:hover {
+    background-color: #461818;
+    color: rgb(255, 255, 255);
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  .fade-in.visible {
+    opacity: 1;
+  }

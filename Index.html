@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="publicstylesheets/style.css">
   <title>AMIGOS DEL VOLANTE</title>
 </head>
@@ -24,10 +26,12 @@
 
       <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
-        <a class="text-md sm:text-xs font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+        <a class="text-base sm:text-sm md:text-base lg:text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
           href="https://wa.me/593996093727">
           Amigos del Volante
         </a>
+
+
         <button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button" onclick="toggleNavbar('example-collapse-navbar')">
@@ -82,9 +86,21 @@
               <h1 class="text-white font-semibold text-5xl">
                 Servicio de Transporte
               </h1>
+
               <p class="mt-4 text-lg text-gray-300">
                 Taxi ruta, Taxi compartido, Taxi ejecutivo, Taxi femenino, Camionetas, Encomiendas
               </p>
+
+              <div>
+                <button id="pidetaxi" class="font-bold py-4 px-8 mt-6 rounded-full shadow-lg uppercase tracking-wider">
+                  SOLICITE AQUÍ!
+                </button>
+              </div>
+
+
+
+
+
             </div>
           </div>
         </div>
@@ -93,12 +109,14 @@
         style="height: 70px;">
         <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
           version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+          <polygon id="svg1" class="fill-current" points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
     </div>
     <section id="seccion1" class="pb-20 bg-red-900 -mt-24">
+
       <div class="container mx-auto px-4">
+
         <div class="flex flex-wrap">
           <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
             <div id="quienesomos"
@@ -110,7 +128,8 @@
                 </div>
                 <h6 class="text-xl font-semibold">¿Quienes somos?</h6>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Un equipo de servidores residentes propietarios de las diferentes etapas de Mucho lote 2.
+                  Somos un equipo de vecinos residentes y propietarios de las diferentes etapas de Mucho lote 2 para
+                  garantizar su seguridad al máximo.
                 </p>
               </div>
             </div>
@@ -154,7 +173,7 @@
               class="text-gray-600 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
               <img src="public/images/BASES.jpg" alt="BASE" id="BASE">
             </div>
-            <h3 class="text-3xl mb-2 font-bold leading-normal">
+            <h3 class="text-3xl mb-2 font-bold leading-normal text-black">
               ¿Cuáles son nuestras bases?
             </h3>
             <p class="text-lg font-semibold leading-relaxed mt-4 mb-4 text-gray-900">
@@ -181,7 +200,7 @@
             <div
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-600">
               <img alt="..." src="https://st2.depositphotos.com/1001877/5468/i/450/depositphotos_54681837-stock-photo-mobile-gps-navigation-concept-smartphone.jpg
-                class=" w-full align-middle rounded-t-lg" />
+                class=" w-full align-middle rounded-t-lg" id="Ubicacion" />
               <blockquote class="relative p-8 mb-4">
                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                   class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
@@ -201,13 +220,6 @@
       </div>
     </section>
     <section id="servicios" class="relative py-20">
-      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px;">
-        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
       <div id="decoracion" class="container mx-auto px-4 py-3">
         <div class="items-center flex flex-wrap">
           <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
