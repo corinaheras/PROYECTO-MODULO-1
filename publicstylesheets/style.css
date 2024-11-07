@@ -32,7 +32,7 @@
 }
 
 #BASES {
-    background: rgba(244, 216, 0, 0.857);
+    background: rgba(255, 229, 29, 0.857);
     border: 5px solid rgb(54, 2, 2);
 
 }
@@ -76,3 +76,16 @@
   .fade-in.visible {
     opacity: 1;
   }
+
+#formulario {
+    border-radius: 12px;
+    background-color: rgb(246, 223, 46);
+}
+
+#registro {
+    background: linear-gradient(90deg, #ba4040 0%, #500912 100%)
+}
+
+#logoformulario {
+    border-radius: 30px;
+}
