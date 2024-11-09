@@ -2,14 +2,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.footer-icon {
-    transition: all 0.3s ease;
-  }
-  
-  .footer-icon:hover {
-    transform: scale(1.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
+
 
 #seccion1 {
     background: rgb(97, 15, 15);
@@ -72,10 +65,11 @@
 .fade-in {
     opacity: 0;
     transition: opacity 1s ease-in-out;
-  }
-  .fade-in.visible {
+}
+
+.fade-in.visible {
     opacity: 1;
-  }
+}
 
 #formulario {
     border-radius: 12px;
@@ -89,3 +83,26 @@
 #logoformulario {
     border-radius: 30px;
 }
+
+#botonformulario {
+
+    background-color: #f7fafc;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#botonformulario:hover {
+    background-color: #461818;
+    color: rgb(255, 255, 255);
+}
+
+#escribenos {
+
+    color: black;
+    transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+#escribenos:hover {
+    color: rgb(102, 18, 18);
+}
+
