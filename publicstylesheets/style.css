@@ -2,10 +2,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-
 #seccion1 {
-    background: rgb(97, 15, 15);
+    background: linear-gradient(90deg, #741f1f 0%, #500912 100%)
+
 }
 
 #quienesomos {
@@ -31,11 +30,11 @@
 }
 
 #servicios {
-    background: rgba(157, 222, 113, 0.857)
+    background: rgba(255, 255, 255, 0.857)
 }
 
 #decoracion {
-    background: rgba(95, 163, 50, 0.857)
+    background: rgba(201, 203, 200, 0.857)
 }
 
 #BASE {
